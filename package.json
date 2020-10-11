@@ -1,5 +1,5 @@
 {
-  "name": "done",
+  "name": "getKcal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/jpmourag/getKcal.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["getKcal"],
+  "author": "JPMouraG",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jpmourag/getKcal/issues"

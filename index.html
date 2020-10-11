@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/toggle.css" />
+    <link rel="stylesheet" href="./assets/css/details.css" />
+    <title>getkcal</title>
+  </head>
+  <body>
+    <div class="darkmode"></div>
+    <div id="container-body">
+      <div class="container">
+        <header>
+          <img src="./assets/img/logo.svg" alt="getkcal_icon" />
+          <div class="toggle-container">
+            <input type="checkbox" id="switch" />
+            <label for="switch"></label>
+          </div>
+        </header>
+      </div>
+      <div class="content">
+        <form id="form">
+          <div class="form_group">
+            <label for="gender">What's your gender?</label>
+            <select id="gender">
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="age">What's your age?</label>
+            <input type="number" id="age" placeholder="28" />
+          </div>
+          <div class="form_group">
+            <label for="weight">What's your weight? (kg)</label>
+            <input type="number" id="weight" placeholder="60" />
+          </div>
+          <div class="form_group">
+            <label for="height">What's your height? (cm)</label>
+            <input type="number" id="height" placeholder="175" />
+          </div>
+          <div class="form_group">
+            <label for="activity_level">What's your activity level?</label>
+            <select id="activity_level">
+              <option value="1.2">Sedentary</option>
+              <option value="1.375">Few activity</option>
+              <option value="1.55">Moderate activity</option>
+              <option value="1.725">Intense activity</option>
+              <option value="1.9">Very intensive activity</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <button type="submit">Hit here to calculate!</button>
+          </div>
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/darkMode.js"></script>
+  </body>
+</html>

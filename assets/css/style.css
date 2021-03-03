@@ -24,17 +24,6 @@ html {
   height: 100%;
   width: 100%;
 }
-body {
-  background-color: var(--bg-color);
-  color: var(--bg-color);
-  margin: 4% 0 0 0;
-  height: auto;
-  width: auto;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  grid-template-columns: clamp(10vw, 15vw, 30vw) 2fr clamp(10vw, 15vw, 30vw);
-}
 #container-body {
   background-color: var(--contentBG-color);
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.45);
@@ -50,4 +39,12 @@ body {
   margin: 10px 0 0 0;
   width: 100%;
   border-radius: 5px;
+}
+.everything {
+  background-color: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
